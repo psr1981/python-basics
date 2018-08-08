@@ -6,7 +6,6 @@ def my_decorator(func):
         return result
     return wrapper
 
-
 @my_decorator
 
 def add(a,b):
